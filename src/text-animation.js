@@ -21,11 +21,10 @@ directive('textAnimation', ['$document', '$interval', '$timeout', function ($doc
               var offset = Math.floor(Math.random() * (45 - duration * 3)) + 3;
               var size = 12 + (15 - duration);
               var span = angular.element('<span class="animated-text" style="right:'+offset+'vw; font-size: '+size+'px; animation-duration:'+duration+'s">'+character+'</span>');
-              angular.element(document.body).append(span);
-              $timeout(function (element) {
-                span.remove()
-                //element.parentNode.removeChild(element);
-              }, duration * 1000, element);
+              element.append(span);
+              $timeout(function (span) {
+                span.remove();
+              }, duration * 1000, false, span);
             }
           }, 250);
         }
