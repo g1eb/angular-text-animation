@@ -1,0 +1,33 @@
+{
+  "name": "angular-text-animation",
+  "version": "0.0.1",
+  "authors": [
+    "Gleb <git@gleb.nl>"
+  ],
+  "description": "Floating text animation, converted to an angular directive for your convenience.",
+  "main": [
+    "dist/text-animation.js",
+    "dist/text-animation.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "random",
+    "text",
+    "animation"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/g1eb/angular-text-animation",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

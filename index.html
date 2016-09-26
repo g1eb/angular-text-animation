@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="ExampleApp">
+<head>
+  <title>Floating text animation for AngularJS</title>
+  <link rel="stylesheet" type="text/css" href="dist/text-animation.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body ng-controller="MainCtrl">
+
+  <text-animation></text-animation>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js" charset="utf-8"></script>
+  <script src="dist/text-animation.js"></script>
+
+  <script>
+    angular.module('ExampleApp', ['g1b.text-animation']).controller('MainCtrl', function () {});
+  </script>
+</body>
+</html>
