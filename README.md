@@ -25,10 +25,10 @@ angular.module('myApp', [
 ])
 ```
 
-3) Use directive in your view
+3) Use directive on the body tag
 
 ```html
-<text-animation></text-animation>
+<body text-animation>
 ```
 
 ## Dependencies
