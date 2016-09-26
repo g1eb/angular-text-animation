@@ -1,5 +1,42 @@
 /**
  * Floating text animation styles
  */
-.text-animation {
+.animated-text {
+  cursor: default;
+  color: whitesmoke;
+  font-family: 'Helvetica';
+  text-shadow: 0 0 1px white;
+  font-size: 18px;
+  position: absolute;
+  right: 25px;
+  top: -50px;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  animation-name: float-animation;
+  animation-timing-function: ease-out;
+}
+
+@keyframes float-animation {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    top: -25px;
+    opacity: 0;
+  }
 }
