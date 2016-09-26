@@ -6,8 +6,8 @@
   ],
   "description": "Floating text animation, converted to an angular directive for your convenience.",
   "main": [
-    "dist/text-animation.js",
-    "dist/text-animation.css"
+    "dist/text-animation.min.js",
+    "dist/text-animation.min.css"
   ],
   "moduleType": [],
   "keywords": [
