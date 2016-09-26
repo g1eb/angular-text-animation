@@ -6,9 +6,7 @@
 angular.module('g1b.text-animation', []).
 directive('textAnimation', ['$document', '$interval', '$timeout', function ($document, $interval, $timeout) {
   return {
-    restrict: 'E',
-    replace: true,
-    templateUrl: './text-animation.html',
+    restrict: 'A',
     compile: function () {
       return {
         pre: function () {},
