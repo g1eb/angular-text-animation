@@ -2,6 +2,7 @@
   "name": "angular-text-animation",
   "version": "0.0.1",
   "description": "Floating text animation, converted to an angular directive for your convenience.",
+  "author": "g1eb <mail@g1eb.com> (https://g1eb.com)",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -27,7 +28,6 @@
     "random",
     "animation"
   ],
-  "author": "Gleb <git@gleb.nl>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/g1eb/angular-text-animation/issues"
