@@ -2,7 +2,7 @@
   "name": "angular-text-animation",
   "version": "0.0.1",
   "authors": [
-    "Gleb <git@gleb.nl>"
+    "g1eb <mail@g1eb.com> (https://g1eb.com)"
   ],
   "description": "Floating text animation, converted to an angular directive for your convenience.",
   "main": [
