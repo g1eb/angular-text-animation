@@ -1,6 +1,6 @@
 {
   "name": "angular-text-animation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Floating text animation, converted to an angular directive for your convenience.",
   "author": "g1eb <mail@g1eb.com> (https://g1eb.com)",
   "main": "index.js",
