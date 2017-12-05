@@ -9,7 +9,13 @@ Click <a href="https://rawgit.com/g1eb/angular-text-animation/master/" target="_
 
 ## Installation
 
-1) Install 'angular-text-animation' with bower
+1) Install 'angular-text-animation' with npm or bower
+
+```
+npm install angular-text-animation
+```
+
+or:
 
 ```
 bower install angular-text-animation
@@ -21,7 +27,7 @@ bower install angular-text-animation
 ```javascript
 angular.module('myApp', [
   'g1b.text-animation',
-  ......
+  ...
 ])
 ```
 
