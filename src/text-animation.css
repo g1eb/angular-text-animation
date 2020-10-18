@@ -1,6 +1,7 @@
 /**
  * Floating text animation styles
  */
+
 :host ::ng-deep .animated-text {
   cursor: default;
   color: whitesmoke;
