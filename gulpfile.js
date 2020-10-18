@@ -4,8 +4,8 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var autoprefixer = require('gulp-autoprefixer');
-var cssnano = require('gulp-cssnano');
- 
+var cleanCSS = require('gulp-clean-css');
+
 gulp.task('build', function () {
   gulp.src(['src/text-animation.js'])
     .pipe(uglify())
@@ -16,7 +16,7 @@ gulp.task('build', function () {
         browsers: ['last 2 versions'],
         cascade: false
     }))
-    .pipe(cssnano())
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(concat('text-animation.min.css'))
     .pipe(gulp.dest('./dist'));
 });
