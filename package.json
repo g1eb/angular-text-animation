@@ -33,5 +33,11 @@
   "bugs": {
     "url": "https://github.com/g1eb/angular-text-animation/issues"
   },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
   "homepage": "https://github.com/g1eb/angular-text-animation#readme"
 }
