@@ -1,7 +1,7 @@
 /**
  * Floating text animation styles
  */
-.animated-text {
+:host ::ng-deep .animated-text {
   cursor: default;
   color: whitesmoke;
   font-family: 'Helvetica';
