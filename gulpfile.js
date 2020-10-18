@@ -13,7 +13,6 @@ gulp.task('build', function () {
     .pipe(gulp.dest('./dist'));
   gulp.src(['src/text-animation.css'])
     .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
         cascade: false
     }))
     .pipe(cleanCSS({compatibility: 'ie8'}))
